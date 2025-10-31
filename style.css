@@ -1,0 +1,68 @@
+html {
+  background-color: #c5d97a;
+  color: var(--text);
+  /*color: rgb(84, 76, 61); rgb(208, 255, 136)*/
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poetsen%20One:700|Roboto:400');
+
+:root {
+--text: #3c3b3b;
+--background: #d8fc7e;
+--primary: #2d3fa4;
+--secondary: #ad135b;
+--accent: #f9cd9f;
+}
+
+
+body {
+  font-family: 'Roboto';
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poetsen One';
+  font-weight: 700;
+  color: var(--text);
+}
+
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 3.366rem; /* 53.92px */;
+  display: inline;
+  max-width: 10px;
+}
+
+h2 {font-size: 2.525rem; /* 40.32px */}
+
+h3 {font-size: 1.894rem; /* 30.24px */}
+
+h4 {font-size: 1.421rem; /* 22.72px */}
+
+h5 {font-size: 1.066rem; /* 17.12px */}
+
+small {font-size: 0.600rem; /* 9.6px */}
+
+#jeongvely {
+  display: inline-block;
+  height: 55px;
+  align-self: auto;
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p .caption {
+  width: 50vw;
+}
+
+ul {
+  text-align: justify;
+}
